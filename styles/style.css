@@ -12,7 +12,15 @@ body{
     overflow-x: hidden;
 }
 ::-webkit-scrollbar{
-    display: none;
+    display: block;
+    width: 5px;
+    height: 7px;
+    cursor: pointer;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #352208;
+    border-radius: 50px;
+   
 }
 
 :root{
