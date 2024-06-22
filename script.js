@@ -19,8 +19,6 @@ closeBtn.addEventListener('click', () => {
 
 
 
-
-
 // ======= location ======
 
 const locations = [
