@@ -23,7 +23,7 @@
                 <div class="  nav-row d-flex justify-content-between align-items-center overflow-hidden">
                     <div class="header-item item-left mx-5   pt-sm-3">
                         <div class="logo overflow-hidden">
-                            <span style="line-height: 2px;"><a id="logo" href="#" >Brew Haven</a>
+                            <span style="line-height: 2px;"><a id="logo" href="index.html" >Brew Haven</a>
                             <span><p id="logo-sub" style="font-family: montserrat; font-size: .8rem; width: 5rem; kerning: 2rem; color: #352208;">Coffee co.</p></span>
                         </span>
                         </div>
@@ -31,12 +31,12 @@
                         <div class="header-item item-center d-block d-sm-none d-md-none d-lg-block align-items-center text-center pt-3 overflow-hidden">
                             <div class="menu ">
                                 <ul class="menu-item ">
-                                    <li><a href="shop.html">Shop</a></li>
-                                    <li><a href="#">Subscribe</a></li>
-                                    <li><a href="#">Brew Guide</a></li>
-                                    <li><a href="location.html">Locations</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#">Contact us</a></li>
+                                    <li><a class="menu-a" href="shop.html">Shop</a></li>
+                                    <li><a class="menu-a" href="#">Subscribe</a></li>
+                                    <li><a class="menu-a" href="#">Brew Guide</a></li>
+                                    <li><a class="menu-a" href="location.html">Locations</a></li>
+                                    <li><a class="menu-a" href="#">Blog</a></li>
+                                    <li><a class="menu-a" href="#">Contact us</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -54,10 +54,10 @@
             <div class="menu">
                     <ul class="menu-sm-item d-flex flex-column justify-content-center align-items-center pe-5 me-5"style=" ">
                     <ul class="menu-sm-item d-flex flex-column justify-content-center align-items-center "style=" ">
-                    <li><a href="#">Shop</a></li>
+                    <li><a href="shop.html">Shop</a></li>
                     <li><a href="#">Subscribe</a></li>
                     <li><a href="#">Brew Guide</a></li>
-                    <li><a href="#">Locations</a></li>
+                    <li><a href="location.html">Locations</a></li>
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Contact us</a></li>
                 </ul>
@@ -76,6 +76,17 @@
         </div>
     </div>
 
+    <div class="shop-btns d-flex mx-5 py-2 overflow-scroll">
+        <button class="btn   shop-btn  me-3" data-proId="all">All</button>
+        <button class="btn   shop-btn  me-3" data-proId="Espresso">Espresso</button>
+        <button class="btn   shop-btn  mx-3" data-proId="Single-Origin">Single-Origin</button>
+        <button class="btn   shop-btn  mx-3" data-proId="Flavored Coffee">Flavored Coffee</button>
+        <button class="btn   shop-btn  mx-3" data-proId="Decaf Coffee">Decaf Coffee</button>
+        <button class="btn   shop-btn  mx-3" data-proId="Cold Brew">Cold Brew</button>
+        <button class="btn   shop-btn  mx-3" data-proId="Specialty Blends">Specialty Blends</button>
+        <button class="btn   shop-btn  mx-3" data-proId="Seasonal Blends">Seasonal Blends</button>
+    </div>
+
 
 
     <div class="shop-card-con1 d-flex flex-lg-row flex-md-row flex-sm-column justify-content-evenly my-5 row-gap-5 align-items-center column-gap-3 flex-wrap ">
@@ -87,12 +98,12 @@
                     <!-- ===== content ==== -->
                     <div class="pro-con ms-4 lh-1">
                         <h3 class=" mt-3 lh-1 fw-bolder">Espresso Elegance</h3>
-                        <h6 class="overflow-hidden">A rich, full-bodied espresso blend</h6>
+                        <h6 class="overflow-hidden">A rich, full-bodied espresso blend.</h6>
                         <!-- ======= card-footer ======= -->
                         <div class="pro-footer d-flex column-gap-1 mt-3">
                             <h1 class="pro-price fw-bolder mt-1">$12</h4>
                             <button class="btn buttons">Add to cart</button>
-                            <button class="arrow buttons"><span><img src="images/arrow-up-right.png" width="20px"></span></button>
+                            <button class="arrow buttons mt-1"><span><img src="images/arrow-up-right.png" width="20px"></span></button>
                         </div>
                     </div>
          </div>
@@ -108,13 +119,214 @@
                 <h3 class=" mt-3 lh-1 fw-bolder">Midnight Espresso</h3>
                 <h6 class="overflow-hidden">A dark roast espresso with intense, smoky undertones</h6>
                 <!-- ======= card-footer ======= -->
-                <div class="pro-footer d-flex column-gap-1 mt-3">
+                <div class="pro-footer d-flex column-gap-1 mt-1">
                     <h1 class="pro-price fw-bolder mt-1">$12</h4>
                     <button class="btn buttons">Add to cart</button>
-                    <button class="arrow buttons"><span><img src="images/arrow-up-right.png" width="20px"></span></button>
+                    <button class="arrow buttons mt-1"><span><img src="images/arrow-up-right.png" width="20px"></span></button>
                 </div>
             </div>
- </div>
+        </div>
+
+        <div class="pro-card  mx-sm-auto overflow-hidden" >
+            <h6 class="tag text-end mx-4 mt-2 overflow-hidden">New arrival</h6>
+            <div class="f-pro-img  mx-4">
+                <img src="images/Vector (2).png" alt="">
+            </div>
+            <!-- ===== content ==== -->
+            <div class="pro-con ms-4 lh-1">
+                <h3 class=" mt-3 lh-1 fw-bolder">Ethiopian Sunrise</h3>
+                <h6 class="overflow-hidden">A bright, floral single-origin coffee with citrus and berry notes</h6>
+                <!-- ======= card-footer ======= -->
+                <div class="pro-footer d-flex column-gap-1 mt-1">
+                    <h1 class="pro-price fw-bolder mt-1">$12</h4>
+                    <button class="btn buttons">Add to cart</button>
+                    <button class="arrow buttons mt-1"><span><img src="images/arrow-up-right.png" width="20px"></span></button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="pro-card  mx-sm-auto overflow-hidden" >
+            <h6 class="tag text-end mx-4 mt-2 overflow-hidden">New arrival</h6>
+            <div class="f-pro-img  mx-4">
+                <img src="images/Vector (4).png" alt="">
+            </div>
+            <!-- ===== content ==== -->
+            <div class="pro-con ms-4 lh-1">
+                <h3 class=" mt-3 lh-1 fw-bolder">Vanilla Bean Bliss</h3>
+                <h6 class="overflow-hidden">A delightful blend infused with the sweet  flavor of vanilla beans</h6>
+                <!-- ======= card-footer ======= -->
+                <div class="pro-footer d-flex column-gap-1 mt-1">
+                    <h1 class="pro-price fw-bolder mt-1">$12</h4>
+                    <button class="btn buttons">Add to cart</button>
+                    <button class="arrow buttons mt-1"><span><img src="images/arrow-up-right.png" width="20px"></span></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="pro-card  mx-sm-auto overflow-hidden" >
+            <h6 class="tag text-end mx-4 mt-2 overflow-hidden">New arrival</h6>
+            <div class="f-pro-img  mx-4">
+                <img src="images/Vector (5).png" alt="">
+            </div>
+            <!-- ===== content ==== -->
+            <div class="pro-con ms-4 lh-1">
+                <h3 class=" mt-3 lh-1 fw-bolder">Hazelnut Harmony</h3>
+                <h6 class="overflow-hidden">A nutty blend with the warm, inviting flavor of roasted hazelnuts</h6>
+                <!-- ======= card-footer ======= -->
+                <div class="pro-footer d-flex column-gap-1 mt-1">
+                    <h1 class="pro-price fw-bolder mt-1">$12</h4>
+                    <button class="btn buttons">Add to cart</button>
+                    <button class="arrow buttons mt-1"><span><img src="images/arrow-up-right.png" width="20px"></span></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="pro-card  mx-sm-auto overflow-hidden" >
+            <h6 class="tag text-end mx-4 mt-2 overflow-hidden">New arrival</h6>
+            <div class="f-pro-img  mx-4">
+                <img src="images/Vector (6).png" alt="">
+            </div>
+            <!-- ===== content ==== -->
+            <div class="pro-con ms-4 lh-1">
+                <h3 class=" mt-3 lh-1 fw-bolder">Decaf Dream</h3>
+                <h6 class="overflow-hidden">A smooth and flavorful decaffeinated blend.</h6>
+                <!-- ======= card-footer ======= -->
+                <div class="pro-footer d-flex column-gap-1 mt-1">
+                    <h1 class="pro-price fw-bolder mt-1">$12</h4>
+                    <button class="btn buttons">Add to cart</button>
+                    <button class="arrow buttons mt-1"><span><img src="images/arrow-up-right.png" width="20px"></span></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="pro-card  mx-sm-auto overflow-hidden" >
+            <h6 class="tag text-end mx-4 mt-2 overflow-hidden">New arrival</h6>
+            <div class="f-pro-img  mx-4">
+                <img src="images/Vector (7).png" alt="">
+            </div>
+            <!-- ===== content ==== -->
+            <div class="pro-con ms-4 lh-1">
+                <h3 class=" mt-3 lh-1 fw-bolder">Decaf Delight</h3>
+                <h6 class="overflow-hidden">A decaf blend with notes of cocoa and a hint of sweetness</h6>
+                <!-- ======= card-footer ======= -->
+                <div class="pro-footer d-flex column-gap-1 mt-1">
+                    <h1 class="pro-price fw-bolder mt-1">$12</h4>
+                    <button class="btn buttons">Add to cart</button>
+                    <button class="arrow buttons mt-1"><span><img src="images/arrow-up-right.png" width="20px"></span></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="pro-card  mx-sm-auto overflow-hidden" >
+            <h6 class="tag text-end mx-4 mt-2 overflow-hidden">New arrival</h6>
+            <div class="f-pro-img  mx-4">
+                <img src="images/Vector (8).png" alt="">
+            </div>
+            <!-- ===== content ==== -->
+            <div class="pro-con ms-4 lh-1">
+                <h3 class=" mt-3 lh-1 fw-bolder">Cold Brew Classic</h3>
+                <h6 class="overflow-hidden">A refreshing and smooth cold brew with a rich, chocolatey flavor.</h6>
+                <!-- ======= card-footer ======= -->
+                <div class="pro-footer d-flex column-gap-1 mt-1">
+                    <h1 class="pro-price fw-bolder mt-1">$12</h4>
+                    <button class="btn buttons">Add to cart</button>
+                    <button class="arrow buttons mt-1"><span><img src="images/arrow-up-right.png" width="20px"></span></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="pro-card  mx-sm-auto overflow-hidden" >
+            <h6 class="tag text-end mx-4 mt-2 overflow-hidden">New arrival</h6>
+            <div class="f-pro-img  mx-4">
+                <img src="images/Vector (9).png" alt="">
+            </div>
+            <!-- ===== content ==== -->
+            <div class="pro-con ms-4 lh-1">
+                <h3 class=" mt-3 lh-1 fw-bolder">Citrus Cold Brew</h3>
+                <h6 class="overflow-hidden">A zesty and bright cold brew infused with hints of citrus.</h6>
+                <!-- ======= card-footer ======= -->
+                <div class="pro-footer d-flex column-gap-1 mt-1">
+                    <h1 class="pro-price fw-bolder mt-1">$12</h4>
+                    <button class="btn buttons">Add to cart</button>
+                    <button class="arrow buttons mt-1"><span><img src="images/arrow-up-right.png" width="20px"></span></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="pro-card  mx-sm-auto overflow-hidden" >
+            <h6 class="tag text-end mx-4 mt-2 overflow-hidden">New arrival</h6>
+            <div class="f-pro-img  mx-4">
+                <img src="images/Vector (10).png" alt="">
+            </div>
+            <!-- ===== content ==== -->
+            <div class="pro-con ms-4 lh-1">
+                <h3 class=" mt-3 lh-1 fw-bolder">Signature Reserve</h3>
+                <h6 class="overflow-hidden">A premium blend of carefully selected beans, roasted to perfection.</h6>
+                <!-- ======= card-footer ======= -->
+                <div class="pro-footer d-flex column-gap-1 mt-1">
+                    <h1 class="pro-price fw-bolder mt-1">$12</h4>
+                    <button class="btn buttons">Add to cart</button>
+                    <button class="arrow buttons mt-1"><span><img src="images/arrow-up-right.png" width="20px"></span></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="pro-card  mx-sm-auto overflow-hidden" >
+            <h6 class="tag text-end mx-4 mt-2 overflow-hidden">New arrival</h6>
+            <div class="f-pro-img  mx-4">
+                <img src="images/Vector (11).png" alt="">
+            </div>
+            <!-- ===== content ==== -->
+            <div class="pro-con ms-4 lh-1">
+                <h3 class=" mt-3 lh-1 fw-bolder">Artisan's Choice</h3>
+                <h6 class="overflow-hidden">A handcrafted blend created by our master roasters.</h6>
+                <!-- ======= card-footer ======= -->
+                <div class="pro-footer d-flex column-gap-1 mt-1">
+                    <h1 class="pro-price fw-bolder mt-1">$12</h4>
+                    <button class="btn buttons">Add to cart</button>
+                    <button class="arrow buttons mt-1"><span><img src="images/arrow-up-right.png" width="20px"></span></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="pro-card  mx-sm-auto overflow-hidden" >
+            <h6 class="tag text-end mx-4 mt-2 overflow-hidden">New arrival</h6>
+            <div class="f-pro-img  mx-4">
+                <img src="images/Vector (12).png" alt="">
+            </div>
+            <!-- ===== content ==== -->
+            <div class="pro-con ms-4 lh-1">
+                <h3 class=" mt-3 lh-1 fw-bolder">Autumn Harvest</h3>
+                <h6 class="overflow-hidden">A cozy blend with warm notes of cinnamon, nutmeg, and caramel.</h6>
+                <!-- ======= card-footer ======= -->
+                <div class="pro-footer d-flex column-gap-1 mt-1">
+                    <h1 class="pro-price fw-bolder mt-1">$12</h4>
+                    <button class="btn buttons">Add to cart</button>
+                    <button class="arrow buttons mt-1"><span><img src="images/arrow-up-right.png" width="20px"></span></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="pro-card  mx-sm-auto overflow-hidden" >
+            <h6 class="tag text-end mx-4 mt-2 overflow-hidden">New arrival</h6>
+            <div class="f-pro-img  mx-4">
+                <img src="images/Vector (13).png" alt="">
+            </div>
+            <!-- ===== content ==== -->
+            <div class="pro-con ms-4 lh-1">
+                <h3 class=" mt-3 lh-1 fw-bolder">Winter Wonderland</h3>
+                <h6 class="overflow-hidden">A festive blend with hints of peppermint and dark chocolate.</h6>
+                <!-- ======= card-footer ======= -->
+                <div class="pro-footer d-flex column-gap-1 mt-1">
+                    <h1 class="pro-price fw-bolder mt-1">$12</h4>
+                    <button class="btn buttons">Add to cart</button>
+                    <button class="arrow buttons mt-1"><span><img src="images/arrow-up-right.png" width="20px"></span></button>
+                </div>
+            </div>
+        </div>
+
+
 
     </div>
 
@@ -130,7 +342,7 @@
             </div>
             <div class="quick-links">
                 <h5>Quick links</h5>
-                <a  href="#" class="links">Shop</a><br>
+                <a  href="shop.html" class="links">Shop</a><br>
                 <a href="#">Subscribe</a><br>
                 <a href="#">Brew guide</a><br>
                 <a href="#">Blog</a><br>
@@ -138,7 +350,7 @@
             <div class="footer-more">
                 <h5>More</h5>
                 <a href="#">Contact us</a><br>
-                <a href="#">Locations</a><br>
+                <a href="location.html">Locations</a><br>
                <a href="#">FAQ</a><br>
             </div>
             <div class="footer-sub">
