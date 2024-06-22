@@ -65,7 +65,7 @@ const locations = [
     {
         id: 5,
         place: "Greenfield Terrace",
-        img:"/images/toa-heftiba-QnUywvDdI1o-unsplash 1.png",
+        img:"images/toa-heftiba-QnUywvDdI1o-unsplash 1.png",
         address: "987 Greenfield Lane, Greenfield",
         category:"Greenfield",
         WeekDays:  "Mon-Fri 7am-7pm",
