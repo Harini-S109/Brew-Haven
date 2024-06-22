@@ -64,7 +64,7 @@ a{
     transform: translateY(-8px);
     transition: all 200ms ease;
 }
-a:hover{
+.menu-a:hover{
     text-decoration:underline;
 }
 
@@ -212,7 +212,6 @@ h6{
     }
     .loc-header{
         margin: 0;
-        text-align: center;
     }
     
 }
