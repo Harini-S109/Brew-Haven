@@ -5,7 +5,6 @@ window.addEventListener("load", () =>{
 })
 
 
-
 // ======== nav =======
 
 const menu = document.querySelector(".menu-sm");
