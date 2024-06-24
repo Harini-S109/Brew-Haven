@@ -1,3 +1,11 @@
+const loader = document.getElementById("loader")
+
+window.addEventListener("load", () =>{
+    loader.style.display="none"
+})
+
+
+
 // ======== nav =======
 
 const menu = document.querySelector(".menu-sm");
@@ -16,6 +24,8 @@ closeBtn.addEventListener('click', () => {
     menuBtn.style.display = "inline-block";
     closeBtn.style.display = "none";
 })
+
+
 
 
 
@@ -65,7 +75,7 @@ const locations = [
     {
         id: 5,
         place: "Greenfield Terrace",
-        img:"images/toa-heftiba-QnUywvDdI1o-unsplash 1.png",
+        img:"/images/toa-heftiba-QnUywvDdI1o-unsplash 1.png",
         address: "987 Greenfield Lane, Greenfield",
         category:"Greenfield",
         WeekDays:  "Mon-Fri 7am-7pm",
