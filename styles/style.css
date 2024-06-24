@@ -77,6 +77,16 @@ a{
     text-decoration:underline;
 }
 
+#loader{
+    background: var(--color-light) url('/images/Animation - 1719247855815.gif') no-repeat center ;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-size: 15%;
+}
+
+
 /* ======== nav ======== */
 .container1{
     margin: auto;
