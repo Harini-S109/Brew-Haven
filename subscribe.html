@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap"
     rel="stylesheet">
 
-    <link rel="stylesheet" href="./styles/subscribe.css">
+    <link rel="stylesheet" href="./styles/brewGuide.css">
 </head>
 <body>
     <div class="container1 header-page ">
@@ -32,8 +32,8 @@
                             <div class="menu ">
                                 <ul class="menu-item ">
                                     <li><a class="menu-a" href="shop.html">Shop</a></li>
-                                    <li><a class="menu-a" href="subscribe.html"></a></li>
-                                    <li><a class="menu-a" href="#">Brew Guide</a></li>
+                                    <li><a class="menu-a" href="subscribe.html">Subscribe</a></li>
+                                    <li><a class="menu-a" href="brewGuide.html">Brew Guide</a></li>
                                     <li><a class="menu-a" href="location.html">Locations</a></li>
                                     <li><a class="menu-a" href="#">Blog</a></li>
                                     <li><a class="menu-a" href="#">Contact us</a></li>
@@ -50,8 +50,8 @@
                 </div>
             </div>
         </div>
-        <div class="menu-sm" >
-            <div class="menu">
+        <div class="menu-sm " >
+            <div class="menu ">
                     <ul class="menu-sm-item d-flex flex-column justify-content-center align-items-center pe-5 me-5"style=" ">
                     <ul class="menu-sm-item d-flex flex-column justify-content-center align-items-center "style=" ">
                     <li><a href="shop.html">Shop</a></li>
@@ -66,63 +66,175 @@
     </div>
 
 
-    <div class="shop-con">
-        <!-- ============== bg ========= -->
-        <div class="shop-header-img" style="width: 100%;
-        height: 40vh;
-        background: url('images/nathan-dumlao-KixfBEdyp64-unsplash 1 (1).png') no-repeat center;
-        background-size: cover;">
-            <!-- <img src="images/nathan-dumlao-KixfBEdyp64-unsplash 3.png" alt="" width="100%"> -->
-        </div>
+     <!-- ============== bg ========= -->
+     <div class="shop-header-img " style="width: 100%;
+     height: 40vh;
+     background: url('images/martin-tupy-l13CGnRaduY-unsplash\ 1.png') no-repeat center;
+     background-size: cover;">
+         <!-- <img src="images/nathan-dumlao-KixfBEdyp64-unsplash 3.png" alt="" width="100%"> -->
+     </div>
 
-        <!-- =================== heading =================== -->
-        <div class="shop-header mx-5 mt-5">
-            <h1>Explore Our Collection</h1>
-            <p> Join the Brew Haven Subscription and Savor the Best, Delivered Fresh to Your Door.</p>
-        </div>
-
-        <div class="subscription-con d-flex flex-lg-row flex-sm-column  justify-content-between align-items-center p-5 p-lg-0 my-5">
-            <div class="sub-con ">
-                <h1 class="sub-heading fw-bolder my-3 fs-1 ">Why Subscribe?</h1>
-                <h6 class="sub-p mb-5 overflow-hidden">Enjoy a handpicked assortment of our finest blends and single-origin coffees, tailored to your taste preferences.
-                    Each batch is roasted to order, ensuring you receive the freshest coffee possible for an exceptional cup every time.
-                    Say goodbye to grocery store runs. Get your favorite coffee delivered straight to your doorstep with flexible delivery schedules.
-                    Subscribers gain access to special discounts, early product releases, and invitations to exclusive Brew Haven events.
-                </h6>
-                
-            </div>
-
-            <div class="sub-con mt-5">
-                <h5 class="sub-subheading d-flex mb-0 "><div class="sub-no">01</div>Choose Your Plan:</h5>
-                <h6 class="sub-p mb-5 ms-5 overflow-hidden">Select the subscription plan that suits your coffee habits, whether you need a monthly 
-                    refill or a more frequent delivery.</h6>
-    
-                <h5 class="sub-subheading d-flex mb-0"><div class="sub-no">02</div>Customize Your Preferences:</h5>
-                <h6 class="sub-p mb-5 ms-5 overflow-hidden">Tell us your taste preferences, and we’ll tailor each shipment to your liking, whether you prefer light, medium, or dark roasts.</h6>
-    
-                <h5 class="sub-subheading d-flex mb-0"><div class="sub-no">03</div>Enjoy Your Coffee:</h5>
-                <h6 class="sub-p mb-3 ms-5 overflow-hidden"> Sit back and relax as we deliver freshly roasted coffee right to your doorstep. Brew, sip, and savor the Brew Haven experience.</h6>
-    
-            </div>
-            
-        </div>
+     <div class="brew-header mx-5 mt-5">
+        <h1 class="mb-0">Perfecting Your Brew: A Step-by-Step Guide from Brew Haven Coffee Co.</h1>
+        <p>Welcome to the Brew Haven Coffee Co. Brew Guide – your ultimate resource for brewing the perfect cup of coffee at home. Whether you’re a novice or a seasoned coffee enthusiast, our guide offers step-by-step instructions for a variety of brewing methods, ensuring you can enjoy the rich 
+            flavors and aromas of our premium coffee blends every day.</p>
     </div>
 
     <div class="shop-btns d-flex mx-5 py-2 overflow-scroll">
-        <button class="btn   shop-btn  me-3" data-proId="all">All</button>
-        <button class="btn   shop-btn  me-3" data-proId="Espresso">Espresso</button>
-        <button class="btn   shop-btn  mx-3" data-proId="Single-Origin">Single-Origin</button>
-        <button class="btn   shop-btn  mx-3" data-proId="Flavored Coffee">Flavored Coffee</button>
-        <button class="btn   shop-btn  mx-3" data-proId="Decaf Coffee">Decaf Coffee</button>
-        <button class="btn   shop-btn  mx-3" data-proId="Cold Brew">Cold Brew</button>
-        <button class="btn   shop-btn  mx-3" data-proId="Specialty Blends">Specialty Blends</button>
-        <button class="btn   shop-btn  mx-3" data-proId="Seasonal Blends">Seasonal Blends</button>
+        <button class="btn   shop-btn  me-3" ><a href="#French" id="btn-a">French Press</a></button>
+        <button class="btn   shop-btn  me-3" ><a href="#Pour" id="btn-a">Pour Over</a></button>
+        <button class="btn   shop-btn  me-3" ><a href="#Aeropress" id="btn-a">Aeropress</a></button>
+        <button class="btn   shop-btn  me-3" ><a href="#cold" id="btn-a">Cold Brew</a></button>
+        <button class="btn   shop-btn  me-3" ><a href="#espresso" id="btn-a">Espresso</a></button>
     </div>
 
+    <div class="con m-sm-5">
+        <div class="brew-content1 m-5 mb-0" id="French">
+            <h4>French Press</h4>
+            <p>Achieve a full-bodied, rich coffee with the French Press. This method allows the coffee grounds to steep directly in hot water, resulting 
+                in a robust and flavorful brew.</p>
+                <div class="bcon1 mx-5">
+                    <h5>Ingredients:</h5>
+                    <p class="my-0 mb-2 mx-3">30g coarsely ground coffee</p>
+                    <p class="my-0 mb-3 mx-3">500ml hot water (just off the boil, around 200°F/93°C)</p>
+                </div>
+        </div>
+        <div class="subscription-con d-flex  justify-content-center align-items-center p-md-5 p-3 pt-0 mb-5 mx-auto">
+            <div class="sub-con ">
+                <h3 class="sub-heading fw-bolder mb-3 mt-4 mt-md-2">Steps:</h3>
+                <h5 class="sub-subheading d-flex mb-0 "><div class="sub-no">01</div>Preheat Your French Press:</h4>
+                <h6 class="sub-p mb-4 ms-5 overflow-hidden">Pour hot water into the French press to preheat, then discard the water.</h6>
+    
+                <h5 class="sub-subheading d-flex mb-0 "><div class="sub-no">02</div>Add Coffee Grounds: </h4>
+                <h6 class="sub-p mb-4 ms-5 overflow-hidden">Place the coarsely ground coffee into the French press.</h6>
+    
+                <h5 class="sub-subheading d-flex mb-0"><div class="sub-no">03</div>Pour Water:</h5>
+                <h6 class="sub-p mb-4 ms-5 overflow-hidden">Slowly add hot water, ensuring all coffee grounds are saturated.</h6>
 
-    <div class="shop-sub-card-con1 d-flex flex-lg-row flex-md-row flex-sm-column justify-content-evenly my-5 row-gap-5 align-items-center column-gap-3 flex-wrap ">
+                <h5 class="sub-subheading d-flex mb-0"><div class="sub-no">04</div>Stir and Steep: </h5>
+                <h6 class="sub-p mb-4 ms-5 overflow-hidden">Stir gently and place the lid on the French press without pressing the plunger. Let it steep for 4 minutes.</h6>
+
+                <h5 class="sub-subheading d-flex mb-0"><div class="sub-no">05</div>Press and Pour: </h5>
+                <h6 class="sub-p mb-3 ms-5 overflow-hidden">Press the plunger down slowly and evenly. Pour your coffee immediately to avoid over-extraction.</h6>
+            </div>
+        </div>
+
+        <div class="brew-content2 m-5 mb-0" id="Pour">
+            <h4> Pour Over (Chemex or V60)</h4>
+            <p>Discover the delicate, clean flavors of coffee with the pour-over method. Using a precise, controlled pour, this technique highlight
+                 the nuanced notes of our beans.</p>
+                <div class="bcon1 mx-5">
+                    <h5>Ingredients:</h5>
+                    <p class="my-0 mb-2 mx-3">25g medium-coarse ground coffee</p>
+                    <p class="my-0 mb-3 mx-3">400ml hot water (200°F/93°C)</p>
+                </div>
+        </div>
+        <div class="subscription-con d-flex  justify-content-center align-items-center p-md-5 p-3 pt-0 mb-5 mx-auto">
+            <div class="sub-con ">
+                <h3 class="sub-heading fw-bolder mb-3 mt-4 mt-md-2">Steps:</h3>
+                <h5 class="sub-subheading d-flex mb-0 "><div class="sub-no">01</div>Prepare Your Filter:</h4>
+                <h6 class="sub-p mb-4 ms-5 overflow-hidden"> Place the filter in your pour-over device and rinse with hot water. Discard the rinse water.</h6>
+    
+                <h5 class="sub-subheading d-flex mb-0 "><div class="sub-no">02</div>Add Coffee Grounds: </h4>
+                <h6 class="sub-p mb-4 ms-5 overflow-hidden">Place the ground coffee in the filter, creating an even bed.</h6>
+    
+                <h5 class="sub-subheading d-flex mb-0"><div class="sub-no">03</div>Bloom:</h5>
+                <h6 class="sub-p mb-4 ms-5 overflow-hidden"> Pour just enough hot water to wet the grounds. Let it bloom for 30 seconds to release gases.</h6>
+
+                <h5 class="sub-subheading d-flex mb-0"><div class="sub-no">04</div>First Pour:</h5>
+                <h6 class="sub-p mb-4 ms-5 overflow-hidden">Slowly pour hot water in a circular motion, covering all the grounds. Let the water draw down.</h6>
+
+                <h5 class="sub-subheading d-flex mb-0"><div class="sub-no">05</div>Second Pour:</h5>
+                <h6 class="sub-p mb-3 ms-5 overflow-hidden"> Continue pouring in stages until you reach 400ml. Each pour should be slow and controlled.</h6>
+            </div>
+        </div>
         
+        <div class="brew-content3 m-5 mb-0" id="Aeropress">
+            <h4> Aeropress</h4>
+            <p>Enjoy a versatile and quick brewing method with the Aeropress. Known for its portability 
+                and ease of use, it produces a smooth, concentrated coffee that can be enjoyed as is or diluted.</p>
+                <div class="bcon1 mx-5">
+                    <h5>Ingredients:</h5>
+                    <p class="my-0 mb-2 mx-3">17g fine ground coffee</p>
+                    <p class="my-0 mb-3 mx-3">250ml hot water (200°F/93°C)</p>
+                </div>
+        </div>
+        <div class="subscription-con d-flex  justify-content-center align-items-center p-md-5 p-3 pt-0 mb-5 mx-auto">
+            <div class="sub-con ">
+                <h3 class="sub-heading fw-bolder mb-3 mt-4 mt-md-2">Steps:</h3>
+                <h5 class="sub-subheading d-flex mb-0 "><div class="sub-no">01</div>Assemble Aeropress: </h4>
+                <h6 class="sub-p mb-4 ms-5 overflow-hidden">Place a filter in the cap and rinse with hot water. Assemble the Aeropress on your cup.</h6>
+    
+                <h5 class="sub-subheading d-flex mb-0 "><div class="sub-no">02</div>Add Coffee Grounds:</h4>
+                <h6 class="sub-p mb-4 ms-5 overflow-hidden">Place the coffee in the Aeropress chamber.</h6>
+    
+                <h5 class="sub-subheading d-flex mb-0"><div class="sub-no">03</div>Pour and Stir: </h5>
+                <h6 class="sub-p mb-4 ms-5 overflow-hidden">  Pour hot water up to the top line, stir for about 10 seconds.</h6>
+
+                <h5 class="sub-subheading d-flex mb-0"><div class="sub-no">04</div>Press:</h5>
+                <h6 class="sub-p mb-4 ms-5 overflow-hidden"> Insert the plunger and press down slowly, stopping when you hear a hissing sound.</h6>
+            </div>
+        </div>
+
+        <div class="brew-content4 m-5 mb-0"id="cold">
+            <h4> Cold Brew</h4>
+            <p>Indulge in a refreshing, smooth coffee with cold brew. By steeping coarsely ground coffee in cold water for an extended period, this 
+                method delivers a rich, low-acid brew perfect for hot days.</p>
+                <div class="bcon1 mx-5">
+                    <h5>Ingredients:</h5>
+                    <p class="my-0 mb-2 mx-3">100g coarsely ground coffee</p>
+                    <p class="my-0 mb-3 mx-3">1 liter cold water</p>
+                </div>
+        </div>
+        <div class="subscription-con d-flex  justify-content-center align-items-center p-md-5 p-3 pt-0 mb-5 mx-auto">
+            <div class="sub-con ">
+                <h3 class="sub-heading fw-bolder mb-3 mt-4 mt-md-2">Steps:</h3>
+                <h5 class="sub-subheading d-flex mb-0 "><div class="sub-no">01</div>Combine Coffee and Water:</h4>
+                <h6 class="sub-p mb-4 ms-5 overflow-hidden">In a large jar or pitcher, combine coffee grounds and cold water.</h6>
+    
+                <h5 class="sub-subheading d-flex mb-0 "><div class="sub-no">02</div>Add Coffee Grounds:</h4>
+                <h6 class="sub-p mb-4 ms-5 overflow-hidden">Stir to ensure all grounds are wet. Cover and steep in the refrigerator for 12-24 hours.</h6>
+    
+                <h5 class="sub-subheading d-flex mb-0"><div class="sub-no">03</div>Strain:</h5>
+                <h6 class="sub-p mb-4 ms-5 overflow-hidden">Using a fine mesh sieve or coffee filter, strain the coffee concentrate into a clean jar.</h6>
+
+                <h5 class="sub-subheading d-flex mb-0"><div class="sub-no">04</div>Serve: </h5>
+                <h6 class="sub-p mb-4 ms-5 overflow-hidden">Dilute with water or milk to your taste. Serve over ice.</h6>
+            </div>
+        </div>
+
+        <div class="brew-content5 m-5 mb-0" id="espresso">
+            <h4>Espresso</h4>
+            <p>Create a bold, concentrated shot of coffee with the espresso method. Ideal for those who love intense flavors, it serves as the base for many
+                 popular coffee drinks like lattes and cappuccinos.</p>
+                <div class="bcon1 mx-5">
+                    <h5>Ingredients:</h5>
+                    <p class="my-0 mb-2 mx-3">18g fine ground coffee</p>
+                    <p class="my-0 mb-3 mx-3">36ml hot water (200°F/93°C)</p>
+                </div>
+        </div>
+        <div class="subscription-con d-flex  justify-content-center align-items-center p-md-5 p-3 pt-0 mb-5 mx-auto">
+            <div class="sub-con ">
+                <h3 class="sub-heading fw-bolder mb-3 mt-4 mt-md-2">Steps:</h3>
+                <h5 class="sub-subheading d-flex mb-0 "><div class="sub-no">01</div>Preheat Your Machine:</h4>
+                <h6 class="sub-p mb-4 ms-5 overflow-hidden">Run a blank shot to heat up your espresso machine.</h6>
+    
+                <h5 class="sub-subheading d-flex mb-0 "><div class="sub-no">02</div>Prepare Your Portafilter:</h4>
+                <h6 class="sub-p mb-4 ms-5 overflow-hidden">Add ground coffee to the portafilter and tamp it evenly.</h6>
+    
+                <h5 class="sub-subheading d-flex mb-0"><div class="sub-no">03</div>Brew:</h5>
+                <h6 class="sub-p mb-4 ms-5 overflow-hidden"> Lock the portafilter into the machine and start the extraction. Aim for a 25-30 second extraction time.</h6>
+
+                <h5 class="sub-subheading d-flex mb-0"><div class="sub-no">04</div>Serve: </h5>
+                <h6 class="sub-p mb-4 ms-5 overflow-hidden">Enjoy as a shot or use as a base for other drinks like lattes or cappuccinos.</h6>
+            </div>
+        </div>
+
     </div>
+
+
+
+
 
 
 
@@ -158,189 +270,8 @@
             <div class="copy"><span>&#169; Brew Haven 2024</span></div>
         </div>
     </div>
-    
-    
-    
-    
-    
-    
-    
-    
+
     <!-- ===== javascript ======= -->
-
-     <script>
-    const products = [
-    {
-        id:1,
-        category:"Espresso",
-        name:"Espresso Elegance",
-        img:"images/Vector.png",
-        desc1:"A rich, full-bodied espresso blend.",
-        desc2:"A rich, full-bodied espresso blend with a velvety crema and notes of dark chocolate and roasted nuts. Perfect for a bold shot or a creamy latte.",
-        price:"$12",
-    },
-    {
-        id:2,
-        category:"Espresso",
-        name:"Midnight Espresso",
-        img:"images/Vector1.png",
-        desc1:"A dark roast espresso with intense, smoky undertones",
-        desc2:"A dark roast espresso with intense, smoky undertones and a deep, complex flavor profile. Ideal for those who crave a robust, invigorating experience.",
-        price:"$12",
-    },
-    {
-        id:3,
-        category:"Single-Origin",
-        name:"Ethiopian Sunrise",
-        img:"images/Vector (2).png",
-        desc1:"A bright, floral single-origin coffee with citrus and berry notes",
-        desc2:"A bright, floral single-origin coffee with citrus and berry notes. Sourced from the highlands of Ethiopia, this coffee offers a vibrant and refreshing experience.",
-        price:"$12",
-    },
-    {
-        id:4,
-        category:"Flavored Coffee",
-        name:"Vanilla Bean Bliss",
-        img:"images/Vector (4).png",
-        desc1:"A delightful blend infused with the sweet flavor of vanilla beans",
-        desc2:"A delightful blend infused with the sweet and creamy flavor of vanilla beans. Perfect for a comforting and aromatic cup.",
-        price:"$12",
-    },
-    {
-        id:5,
-        category:"Flavored Coffee",
-        name:"Hazelnut Harmony",
-        img:"images/Vector (5).png",
-        desc1:"A nutty blend with the warm, inviting flavor of roasted hazelnuts",
-        desc2:"A rich and nutty blend with the warm, inviting flavor of roasted hazelnuts. Ideal for a cozy and indulgent coffee break.",
-        price:"$12",
-    },
-    {
-        id:6,
-        category:"Decaf Coffee",
-        name:"Decaf Dream",
-        img:"images/Vector (6).png",
-        desc1:"A smooth and flavorful decaffeinated blend.",
-        desc2:"A smooth and flavorful decaffeinated blend that preserves the rich taste of coffee without the caffeine. Perfect for an evening cup.",
-        price:"$12",
-    },
-    {
-        id:7,
-        category:"Decaf Coffee",
-        name:"Decaf Delight",
-        img:"images/Vector (7).png",
-        desc1:"A decaf blend with notes of cocoa and a hint of sweetness",
-        desc2:"A medium roast decaf blend with notes of cocoa and a hint of sweetness. Enjoy the full coffee experience without the jitters.",
-        price:"$12",
-    },
-    {
-        id:8,
-        category:"Cold Brew",
-        name:"Cold Brew Classic",
-        img:"images/Vector (8).png",
-        desc1:"A refreshing and smooth cold brew with a rich, chocolatey flavor.",
-        desc2:" A refreshing and smooth cold brew with a rich, chocolatey flavor and low acidity. Perfect for a cool, invigorating drink.",
-        price:"$12",
-    },
-    {
-        id:9,
-        category:"Cold Brew",
-        name:"Citrus Cold Brew",
-        img:"images/Vector (9).png",
-        desc1:"A zesty and bright cold brew infused with hints of citrus.",
-        desc2:" A zesty and bright cold brew infused with hints of citrus for a refreshing and unique flavor profile. Great for hot summer days.",
-        price:"$12",
-    },
-    {
-        id:10,
-        category:"Specialty Blends",
-        name:"Signature Reserve",
-        img:"images/Vector (10).png",
-        desc1:"A premium blend of carefully selected beans, roasted to perfection.",
-        desc2:"A premium blend of carefully selected beans, roasted to perfection. Offers a complex flavor profile with notes of dark chocolate, caramel, and a hint of spice.",
-        price:"$12",
-    },
-    {
-        id:11,
-        category:"Specialty Blends",
-        name:"Artisan's Choice",
-        img:"images/Vector (11).png",
-        desc1:"A handcrafted blend created by our master roasters.",
-        desc2:"A handcrafted blend created by our master roasters, featuring a harmonious balance of fruity, floral, and nutty notes. A true coffee connoisseur's delight.",
-        price:"$12",
-    },
-    {
-        id:12,
-        category:"Seasonal Blends",
-        name:"Autumn Harvest",
-        img:"images/Vector (12).png",
-        desc1:"A cozy blend with warm notes of cinnamon, nutmeg, and caramel.",
-        desc2:"A cozy blend with warm notes of cinnamon, nutmeg, and caramel. Perfect for crisp fall mornings.",
-        price:"$12",
-    },
-    {
-        id:13,
-        category:"Seasonal Blends",
-        name:"Winter Wonderland",
-        img:"images/Vector (13).png",
-        desc1:"A festive blend with hints of peppermint and dark chocolate.",
-        desc2:"A festive blend with hints of peppermint and dark chocolate, capturing the essence of the holiday season. Ideal for warming up on a chilly day.",
-        price:"$12",
-    },
-]
-
-    const shopContainer = document.querySelector(".shop-sub-card-con1")
-    const proBtn = document.querySelectorAll(".shop-btn")
-    
-    
-    window.addEventListener('DOMContentLoaded',() => {
-        DisplaySpecificProducts(products)
-    })
-    
-    
-    proBtn.forEach(function(btn){
-        btn.addEventListener('click',(e) =>{
-            const category = e.currentTarget.dataset.proid
-            const productCategory = products.filter((shopItems) => {
-                if(shopItems.category === category){
-                     return shopItems
-                }
-            })
-            
-            if(category === "all"){
-                DisplaySpecificProducts(products)
-            }
-            else{
-                DisplaySpecificProducts(productCategory)
-            }
-            
-        })
-    })
-    
-    
-    
-    function DisplaySpecificProducts(products){
-        let displayProducts = products.map(function(products){
-            return `<div class="pro-card  mx-sm-auto overflow-hidden" >
-                  <h6 class="tag text-end mx-4 mt-2 overflow-hidden">New arrival</h6>
-                  <div class="f-pro-img  mx-4">
-                      <img src="${products.img}" alt="">
-                  </div>
-                  <!-- ===== content ==== -->
-                  <div class="pro-con ms-4 lh-1">
-                      <h3 class=" mt-3 lh-1 fw-bolder">${products.name}</h3>
-                      <h6 class="overflow-hidden">${products.desc1}</h6>
-                      <!-- ======= card-footer ======= -->
-                      <div class="pro-footer d-flex column-gap-1 mt-1">
-                          <h1 class="pro-price fw-bolder mt-1">$12</h4>
-                          <button class="btn buttons lh-1" style="font-size: .9rem;">Subscribe Now</button>
-                          <button class="arrow buttons mt-1"><span><img src="images/arrow-up-right.png" width="20px"></span></button>
-                      </div>
-                  </div>
-              </div>`  
-          })
-          displayProducts = displayProducts.join("")
-          shopContainer.innerHTML = displayProducts
-    }</script>
-    </body>
-    </html>
+    <script src="script.js"></script>
+</body>
+</html>
